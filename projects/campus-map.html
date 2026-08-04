@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>校園地圖導覽：網頁到 App｜作品集</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Noto+Sans+TC:wght@400;500;700;900&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-page="campus-map">
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="../index.html" class="brand"><span class="dot"></span>系統實驗室</a>
+    <ul class="nav-links">
+      <li><a href="../index.html#about">關於我</a></li>
+      <li><a href="../index.html#projects">作品集</a></li>
+      <li><a href="../index.html#contact">聯絡方式</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="開啟選單"><span></span></button>
+  </div>
+</nav>
+
+<header class="proj-header">
+  <div class="blob-field"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div></div>
+  <div class="container">
+    <a href="../index.html#projects" class="back-link">← 返回作品集</a>
+    <span class="section-tag">05 · 網頁設計 → App 開發</span>
+    <h1>校園地圖導覽：從網頁構想到 App 實作</h1>
+    <p class="proj-subtitle">這個作品收錄了同一個「校園導覽」題材的兩個階段：一開始以 3D 網頁地圖驗證概念,後來正式開發成具備 GPS 導航與遊戲化互動的「雲坐標」Flutter 跨平台 App。</p>
+
+    <div class="proj-meta">
+      <div class="meta-item"><div class="label">角色</div><div class="value">全端開發（網頁 + App）</div></div>
+      <div class="meta-item"><div class="label">團隊</div><div class="value">4 人專題小組</div></div>
+      <div class="meta-item"><div class="label">技術</div><div class="value">Three.js・Flutter・Firebase</div></div>
+      <div class="meta-item"><div class="label">類型</div><div class="value">資管系實務專題</div></div>
+    </div>
+
+    <div class="proj-cover reveal">
+      <img src="../assets/images/campusmap/architecture.png" alt="雲坐標系統軟體架構與路由流程圖">
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="content-grid">
+    <div class="content-block reveal">
+      <h3><span class="num">1</span>專題緣起</h3>
+      <p>校園幅員廣闊,新生、外籍生與訪客常常找不到教室或設施。我們希望做一套結合「校園路網導航」與「遊戲化互動」的應用,先用網頁 3D 地圖驗證視覺呈現,再進化成正式的行動 App。</p>
+      <ul>
+        <li>初期：3D 網頁地圖，驗證校園場域視覺化的可行性</li>
+        <li>後期：Flutter + Firebase 打造完整導航 + 遊戲 App</li>
+        <li>核心技術：GPS 座標轉換演算法、圖層系統、成就系統</li>
+      </ul>
+    </div>
+    <div class="content-block reveal d1">
+      <h3><span class="num">2</span>App 核心功能</h3>
+      <p>「雲坐標」App 以底部三分頁架構組成：導航、遊戲、個資,並透過自行開發的座標轉換模組,將 GPS 訊號精確映射到自訂校園地圖圖片上。</p>
+      <ul>
+        <li>地圖導航：即時定位、設施篩選、路網導航</li>
+        <li>遊戲中心：經典吃豆人 + 多款迷你遊戲、成就系統</li>
+        <li>個人化：Firebase Auth 登入、主題與頭像解鎖</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-head reveal" style="margin-bottom:20px;">
+    <span class="section-tag">LIVE DEMO</span>
+    <h2>線上體驗</h2>
+    <p>網頁版初期構想已上線,歡迎點進去看看校園場域視覺化的樣子</p>
+  </div>
+  <div class="resource-row reveal" style="margin-bottom:60px;">
+    <a class="resource-chip" href="https://yunbao-20.github.io/yomap/index.html" target="_blank">🌐 雲科．季節限定的記憶圖鑑（網頁版）</a>
+    <a class="resource-chip" href="https://yunbao-20.github.io/yomap/app/app.html" target="_blank">📱 雲坐標 App 介紹頁</a>
+    <a class="resource-chip" href="../assets/docs/yunbao_report.pdf" target="_blank">📄 完整專題報告 PDF</a>
+  </div>
+
+  <div class="section-head reveal" style="margin-bottom:30px;">
+    <span class="section-tag">GALLERY</span>
+    <h2>介面截圖</h2>
+    <p>點擊圖片可以放大檢視</p>
+  </div>
+
+  <div class="gallery reveal">
+    <figure>
+      <img src="../assets/images/campusmap/web-map.png" alt="早期網頁版 3D 校園地圖構想">
+      <figcaption>早期網頁版校園地圖構想</figcaption>
+    </figure>
+    <figure>
+      <img src="../assets/images/campusmap/login.jpg" alt="App 登入／註冊／忘記密碼流程">
+      <figcaption>App 登入／註冊流程</figcaption>
+    </figure>
+    <figure>
+      <img src="../assets/images/campusmap/map.png" alt="App 校園導航地圖介面">
+      <figcaption>App 校園導航地圖介面</figcaption>
+    </figure>
+    <figure>
+      <img src="../assets/images/campusmap/game.png" alt="經典吃豆人遊戲介面">
+      <figcaption>經典吃豆人遊戲介面</figcaption>
+    </figure>
+    <figure>
+      <img src="../assets/images/campusmap/theme.png" alt="主題與頭像個人化設定">
+      <figcaption>主題與頭像個人化設定</figcaption>
+    </figure>
+    <figure>
+      <img src="../assets/images/campusmap/architecture.png" alt="系統軟體架構與路由流程圖">
+      <figcaption>系統軟體架構與路由流程圖</figcaption>
+    </figure>
+  </div>
+
+  <a href="database.html" class="next-project reveal">
+    <div>
+      <div class="label">BACK TO START</div>
+      <h3>線上購物系統資料庫設計</h3>
+    </div>
+    <span class="btn btn-ghost btn-sm">回到第一個作品 →</span>
+  </a>
+
+</div>
+
+<footer>
+  <div class="container footer-inner">
+    <div>
+      <div class="brand" style="color:#fff; margin-bottom:10px;"><span class="dot"></span>系統實驗室</div>
+      <p style="color:#B4AEE8; max-width: 320px;">感謝你看到這裡!如果對這個作品有興趣,歡迎與我聯絡聊聊。</p>
+    </div>
+    <ul class="footer-links">
+      <li><a href="mailto:a11323037@yuntech.edu.tw">✉️ Email</a></li>
+      <li><a href="#">💼 LinkedIn</a></li>
+      <li><a href="#">🐙 GitHub</a></li>
+    </ul>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 吳亭萱．資訊管理系作品集</span>
+    <span>Built with HTML · CSS · JavaScript</span>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
