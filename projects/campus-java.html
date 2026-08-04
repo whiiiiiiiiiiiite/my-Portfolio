@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>校園活動管理系統｜作品集</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Noto+Sans+TC:wght@400;500;700;900&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-page="campus-java">
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="../index.html" class="brand"><span class="dot"></span>系統實驗室</a>
+    <ul class="nav-links">
+      <li><a href="../index.html#about">關於我</a></li>
+      <li><a href="../index.html#projects">作品集</a></li>
+      <li><a href="../index.html#contact">聯絡方式</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="開啟選單"><span></span></button>
+  </div>
+</nav>
+
+<header class="proj-header">
+  <div class="blob-field"><div class="blob b1"></div><div class="blob b2"></div></div>
+  <div class="container">
+    <a href="../index.html#projects" class="back-link">← 返回作品集</a>
+    <span class="section-tag">04 · Java 應用開發</span>
+    <h1>校園活動管理系統</h1>
+    <p class="proj-subtitle">使用 Java 打造的主控台校園活動管理系統,支援活動建立、學生報名、名額管理與資料匯出,並以 CSV 作為輕量資料儲存方案。</p>
+
+    <div class="proj-meta">
+      <div class="meta-item"><div class="label">角色</div><div class="value">系統開發 / UI 互動</div></div>
+      <div class="meta-item"><div class="label">團隊</div><div class="value">2 人小組</div></div>
+      <div class="meta-item"><div class="label">技術</div><div class="value">Java・CSV 資料管理</div></div>
+      <div class="meta-item"><div class="label">類型</div><div class="value">課程期末專題</div></div>
+    </div>
+
+    <div class="proj-cover reveal">
+      <img src="../assets/images/campusjava/image1.png" alt="校園活動管理系統主控台介面">
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="content-grid">
+    <div class="content-block reveal">
+      <h3><span class="num">1</span>系統功能</h3>
+      <p>系統以 Model / Service / Repository 分層設計,涵蓋學生功能、主辦方管理、使用者權限分級與資料查詢等模組。</p>
+      <ul>
+        <li>學生：瀏覽活動、報名 / 取消報名</li>
+        <li>主辦方：建立活動、管理名額、查看報名名單</li>
+        <li>系統：CSV 資料讀寫、報表匯出、資料驗證</li>
+      </ul>
+    </div>
+    <div class="content-block reveal d1">
+      <h3><span class="num">2</span>我的貢獻</h3>
+      <p>主要負責 JavaFX UI 介面設計、事件處理與基本架構搭建,並協助排查互動測試中發現的邊界情況錯誤。</p>
+      <ul>
+        <li>設計主控台選單與使用者互動流程</li>
+        <li>處理事件註冊、報名結果回饋等外部事件</li>
+        <li>參與 UI 互動測試與 Bug 排除</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-head reveal" style="margin-bottom:20px;">
+    <span class="section-tag">DEMO</span>
+    <h2>系統展示影片</h2>
+  </div>
+  <div class="video-block reveal">
+    <video controls poster="../assets/images/campusjava/video_thumb.jpg">
+      <source src="../assets/video/campus_demo.mp4" type="video/mp4">
+      您的瀏覽器不支援影片播放,請下載後觀看。
+    </video>
+  </div>
+
+  <div class="section-head reveal" style="margin-bottom:30px;">
+    <span class="section-tag">GALLERY</span>
+    <h2>系統畫面與架構</h2>
+    <p>點擊圖片可以放大檢視</p>
+  </div>
+
+  <div class="gallery reveal">
+    <figure>
+      <img src="../assets/images/campusjava/image1.png" alt="主控台歡迎畫面">
+      <figcaption>主控台歡迎畫面</figcaption>
+    </figure>
+    <figure>
+      <img src="../assets/images/campusjava/image2.png" alt="功能選單操作畫面">
+      <figcaption>功能選單操作畫面</figcaption>
+    </figure>
+    <figure>
+      <img src="../assets/images/campusjava/image13.png" alt="UML Class Diagram 系統架構">
+      <figcaption>UML Class Diagram 系統架構</figcaption>
+    </figure>
+  </div>
+
+  <a href="campus-map.html" class="next-project reveal">
+    <div>
+      <div class="label">NEXT PROJECT</div>
+      <h3>校園地圖導覽：網頁到 App</h3>
+    </div>
+    <span class="btn btn-ghost btn-sm">下一個作品 →</span>
+  </a>
+
+</div>
+
+<footer>
+  <div class="container footer-inner">
+    <div>
+      <div class="brand" style="color:#fff; margin-bottom:10px;"><span class="dot"></span>系統實驗室</div>
+      <p style="color:#B4AEE8; max-width: 320px;">感謝你看到這裡!如果對這個作品有興趣,歡迎與我聯絡聊聊。</p>
+    </div>
+    <ul class="footer-links">
+      <li><a href="mailto:a11323037@yuntech.edu.tw">✉️ Email</a></li>
+      <li><a href="#">💼 LinkedIn</a></li>
+      <li><a href="#">🐙 GitHub</a></li>
+    </ul>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 吳亭萱．資訊管理系作品集</span>
+    <span>Built with HTML · CSS · JavaScript</span>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
