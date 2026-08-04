@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>吳亭萱｜資訊管理作品集</title>
+<meta name="description" content="資訊管理系畢業生作品集 — 資料庫設計、系統分析、行動應用開發與專案管理案例展示">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Noto+Sans+TC:wght@400;500;700;900&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="brand"><span class="dot"></span>系統實驗室</a>
+    <ul class="nav-links">
+      <li><a href="index.html#about" data-nav="home">關於我</a></li>
+      <li><a href="index.html#projects" data-nav="home">作品集</a></li>
+      <li><a href="index.html#contact" data-nav="home">聯絡方式</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="開啟選單"><span></span></button>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="blob-field">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+  </div>
+  <div class="container hero-inner">
+    <div>
+      <span class="eyebrow">👋 資訊管理系 · 求職作品集</span>
+      <h1>嗨,我是吳亭萱<br><span class="accent">用系統解決真實問題</span></h1>
+      <p class="role-line">畢業於資訊管理系,專注於 <span class="type-target" data-roles="[&quot;資料庫設計&quot;,&quot;系統分析與設計&quot;,&quot;跨平台 App 開發&quot;,&quot;專案管理&quot;,&quot;前端網頁開發&quot;]"></span></p>
+      <p class="hero-lede">從資料庫建模、系統分析設計到跨平台 App 開發,這裡收錄了五個學期間完整落地的專題作品,每一個都從真實需求出發,一路做到可運作的系統。</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">看我的作品 →</a>
+        <a href="#about" class="btn btn-ghost">認識我</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="avatar-card"><span class="emoji">🧑‍💻</span></div>
+      <span class="floating-tag t1">🗄️ PostgreSQL</span>
+      <span class="floating-tag t2">📱 Flutter</span>
+      <span class="floating-tag t3">☕ Java</span>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="stats-bar">
+    <div class="stat-card reveal">
+      <div class="stat-num"><span data-count="5">0</span></div>
+      <div class="stat-label">完整專題作品</div>
+    </div>
+    <div class="stat-card reveal d1">
+      <div class="stat-num"><span data-count="8">0</span>+</div>
+      <div class="stat-label">使用技術與工具</div>
+    </div>
+    <div class="stat-card reveal d2">
+      <div class="stat-num"><span data-count="4">0</span></div>
+      <div class="stat-label">跨組別團隊合作</div>
+    </div>
+    <div class="stat-card reveal d3">
+      <div class="stat-num"><span data-count="1">0</span></div>
+      <div class="stat-label">上架 App 展示網站</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-card reveal">
+        <h3>關於我</h3>
+        <p>我是一名資訊管理系畢業生,喜歡把課堂上的理論,做成真的能跑起來的系統。從資料庫正規化、UML 系統設計,到 Flutter 跨平台開發與專案時程管理,我享受把模糊的需求一步步拆解、設計、實作、驗證的過程。</p>
+        <div class="skill-pills">
+          <span class="pill">資料庫設計</span>
+          <span class="pill pink">系統分析與設計</span>
+          <span class="pill mint">Flutter / Firebase</span>
+          <span class="pill yellow">Java</span>
+          <span class="pill">專案管理</span>
+          <span class="pill pink">UML</span>
+          <span class="pill mint">前端網頁</span>
+        </div>
+      </div>
+      <div class="timeline reveal d1">
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div>
+            <h4>資料庫系統設計</h4>
+            <span>從需求訪談到 ER Model、正規化與效能優化,完整走過一次資料庫專案生命週期。</span>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div>
+            <h4>系統分析與軟體工程</h4>
+            <span>以 UML use case、活動圖、循序圖等圖表,為真實服務場景做系統化設計。</span>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div>
+            <h4>專案管理實務</h4>
+            <span>撰寫工作分解結構(WBS)、甘特圖與風險評估,學習如何讓專案準時交付。</span>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div>
+            <h4>跨平台 App 開發</h4>
+            <span>使用 Flutter + Firebase 打造具備地圖導航與遊戲化互動的完整行動應用。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section" id="projects">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-tag">MY WORK</span>
+      <h2>五個從零到一的專題作品</h2>
+      <p>涵蓋資料庫、系統設計、專案管理、Java 開發與跨平台 App,每個作品都可以點進去看完整的設計過程與成果。</p>
+    </div>
+
+    <div class="filter-tabs reveal">
+      <button class="filter-tab active" data-filter="all">全部作品</button>
+      <button class="filter-tab" data-filter="database">資料庫</button>
+      <button class="filter-tab" data-filter="design">系統設計</button>
+      <button class="filter-tab" data-filter="management">專案管理</button>
+      <button class="filter-tab" data-filter="app">App 開發</button>
+      <button class="filter-tab" data-filter="java">Java</button>
+    </div>
+
+    <div class="project-grid">
+
+      <article class="project-card reveal" data-cat="database">
+        <div class="project-thumb">
+          <span class="project-num">01</span>
+          <img src="assets/images/database/er_model.jpg" alt="線上購物系統 ER Model">
+        </div>
+        <div class="project-body">
+          <h3>線上購物系統資料庫設計</h3>
+          <p>從顧客、商品到訂單與交易的完整關聯式資料庫設計,並以 EXPLAIN 分析與優化查詢效能。</p>
+          <div class="tag-stack">
+            <span class="sticker c-violet">PostgreSQL</span>
+            <span class="sticker c-mint">ER Model</span>
+            <span class="sticker c-yellow">SQL 效能優化</span>
+          </div>
+          <a href="projects/database.html" class="card-link">查看案例 <span class="arrow">→</span></a>
+        </div>
+      </article>
+
+      <article class="project-card reveal d1" data-cat="design">
+        <div class="project-thumb">
+          <span class="project-num">02</span>
+          <img src="assets/images/restaurant/image44.png" alt="餐廳多功能服務系統">
+        </div>
+        <div class="project-body">
+          <h3>餐廳多功能服務系統設計</h3>
+          <p>以 use case、活動圖、循序圖等 UML 圖表,系統化拆解訂位、點餐、排隊叫號等餐廳服務流程。</p>
+          <div class="tag-stack">
+            <span class="sticker c-pink">UML</span>
+            <span class="sticker c-violet">系統分析</span>
+            <span class="sticker c-mint">流程設計</span>
+          </div>
+          <a href="projects/restaurant.html" class="card-link">查看案例 <span class="arrow">→</span></a>
+        </div>
+      </article>
+
+      <article class="project-card reveal d2" data-cat="management">
+        <div class="project-thumb">
+          <span class="project-num">03</span>
+          <img src="assets/images/shuttle/image1.jpeg" alt="電動接駁車服務專案">
+        </div>
+        <div class="project-body">
+          <h3>電動接駁車服務專案規劃</h3>
+          <p>校內電動接駁車服務的完整專案管理規劃,包含 WBS 工作分解、甘特圖時程與風險評估決策。</p>
+          <div class="tag-stack">
+            <span class="sticker c-yellow">專案管理</span>
+            <span class="sticker c-violet">WBS</span>
+            <span class="sticker c-mint">風險評估</span>
+          </div>
+          <a href="projects/shuttle.html" class="card-link">查看案例 <span class="arrow">→</span></a>
+        </div>
+      </article>
+
+      <article class="project-card reveal d3" data-cat="java">
+        <div class="project-thumb">
+          <span class="project-num">04</span>
+          <img src="assets/images/campusjava/video_thumb.jpg" alt="校園活動管理系統">
+        </div>
+        <div class="project-body">
+          <h3>校園活動管理系統</h3>
+          <p>使用 Java 打造的校園活動報名與管理系統,含 CSV 資料管理與完整展示影片。</p>
+          <div class="tag-stack">
+            <span class="sticker c-yellow">Java</span>
+            <span class="sticker c-mint">CSV 資料處理</span>
+            <span class="sticker c-pink">UML Class Diagram</span>
+          </div>
+          <a href="projects/campus-java.html" class="card-link">查看案例 <span class="arrow">→</span></a>
+        </div>
+      </article>
+
+      <article class="project-card reveal d4" data-cat="app,web">
+        <div class="project-thumb">
+          <span class="project-num">05</span>
+          <img src="assets/images/campusmap/map.png" alt="校園地圖導覽 App">
+        </div>
+        <div class="project-body">
+          <h3>校園地圖導覽：網頁到 App</h3>
+          <p>從 3D 網頁地圖構想出發,最終開發成具備 GPS 導航與遊戲化互動的 Flutter 跨平台 App。</p>
+          <div class="tag-stack">
+            <span class="sticker c-violet">Flutter</span>
+            <span class="sticker c-mint">Firebase</span>
+            <span class="sticker c-pink">GPS 定位</span>
+          </div>
+          <a href="projects/campus-map.html" class="card-link">查看案例 <span class="arrow">→</span></a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT / FOOTER ============ -->
+<footer id="contact">
+  <div class="container footer-inner">
+    <div>
+      <div class="brand" style="color:#fff; margin-bottom:10px;"><span class="dot"></span>系統實驗室</div>
+      <p style="color:#B4AEE8; max-width: 320px;">感謝你看到這裡!如果對哪個作品有興趣,或想聊聊實習 / 工作機會,歡迎與我聯絡。</p>
+    </div>
+    <ul class="footer-links">
+      <li><a href="mailto:a11323037@yuntech.edu.tw">✉️ Email</a></li>
+      <li><a href="#">💼 LinkedIn</a></li>
+      <li><a href="#">🐙 GitHub</a></li>
+    </ul>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 吳亭萱．資訊管理系作品集</span>
+    <span>Built with HTML · CSS · JavaScript</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
