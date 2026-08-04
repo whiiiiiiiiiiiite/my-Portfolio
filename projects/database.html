@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>線上購物系統資料庫設計｜作品集</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Noto+Sans+TC:wght@400;500;700;900&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-page="database">
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="../index.html" class="brand"><span class="dot"></span>系統實驗室</a>
+    <ul class="nav-links">
+      <li><a href="../index.html#about">關於我</a></li>
+      <li><a href="../index.html#projects">作品集</a></li>
+      <li><a href="../index.html#contact">聯絡方式</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="開啟選單"><span></span></button>
+  </div>
+</nav>
+
+<header class="proj-header">
+  <div class="blob-field"><div class="blob b1"></div><div class="blob b2"></div></div>
+  <div class="container">
+    <a href="../index.html#projects" class="back-link">← 返回作品集</a>
+    <span class="section-tag">01 · 資料庫系統設計</span>
+    <h1>線上購物系統資料庫設計</h1>
+    <p class="proj-subtitle">一份完整的關聯式資料庫課程專題:從需求分析、ER Model 建模、正規化設計,到實際撰寫 SQL 查詢並用 EXPLAIN ANALYZE 驗證效能。</p>
+
+    <div class="proj-meta">
+      <div class="meta-item"><div class="label">角色</div><div class="value">資料庫設計 / SQL 撰寫</div></div>
+      <div class="meta-item"><div class="label">團隊</div><div class="value">7 人小組</div></div>
+      <div class="meta-item"><div class="label">工具</div><div class="value">PostgreSQL・draw.io</div></div>
+      <div class="meta-item"><div class="label">類型</div><div class="value">課程期末專題</div></div>
+    </div>
+
+    <div class="proj-cover reveal">
+      <img src="../assets/images/database/relation_diagram.png" alt="線上購物系統資料表關聯圖">
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="content-grid">
+    <div class="content-block reveal">
+      <h3><span class="num">1</span>專題目標</h3>
+      <p>設計一套支援線上購物情境的關聯式資料庫,需涵蓋顧客、商品、供應商、訂單、庫存、交易與商品評論等完整業務流程,並確保資料一致性與查詢效能。</p>
+      <ul>
+        <li>完整的實體關聯(ER)建模與正規化設計</li>
+        <li>10 張以上資料表,涵蓋多對多與弱實體關係</li>
+        <li>撰寫商業情境查詢並分析執行計畫</li>
+      </ul>
+    </div>
+    <div class="content-block reveal d1">
+      <h3><span class="num">2</span>我的貢獻</h3>
+      <p>負責資料表結構設計與多題複雜 SQL 查詢的撰寫,並針對效能瓶頸使用 EXPLAIN ANALYZE 找出可優化的查詢路徑。</p>
+      <ul>
+        <li>設計顧客、商品、訂單、交易等核心資料表 DDL</li>
+        <li>撰寫跨表 JOIN、GROUP BY、HAVING 等進階查詢</li>
+        <li>比對索引前後的查詢計畫,驗證效能改善</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-head reveal" style="margin-bottom:30px;">
+    <span class="section-tag">GALLERY</span>
+    <h2>設計圖與查詢截圖</h2>
+    <p>點擊圖片可以放大檢視</p>
+  </div>
+
+  <div class="gallery reveal">
+    <figure>
+      <img src="../assets/images/database/er_model.jpg" alt="ER Model 實體關聯圖">
+      <figcaption>ER Model 實體關聯圖</figcaption>
+    </figure>
+    <figure>
+      <img src="../assets/images/database/relation_diagram.png" alt="資料表關聯與屬性設計">
+      <figcaption>資料表關聯與屬性設計</figcaption>
+    </figure>
+    <figure>
+      <img src="../assets/images/database/query1.jpg" alt="SQL 查詢：各地區高消費顧客統計">
+      <figcaption>SQL 查詢：各地區高消費顧客統計</figcaption>
+    </figure>
+    <figure>
+      <img src="../assets/images/database/explain1.jpg" alt="EXPLAIN ANALYZE 執行計畫分析">
+      <figcaption>EXPLAIN ANALYZE 執行計畫分析</figcaption>
+    </figure>
+  </div>
+
+  <div class="resource-row reveal">
+    <a class="resource-chip" href="../assets/docs/database_report.pdf" target="_blank">📄 完整書面報告 PDF</a>
+  </div>
+
+  <a href="restaurant.html" class="next-project reveal">
+    <div>
+      <div class="label">NEXT PROJECT</div>
+      <h3>餐廳多功能服務系統設計</h3>
+    </div>
+    <span class="btn btn-ghost btn-sm">下一個作品 →</span>
+  </a>
+
+</div>
+
+<footer>
+  <div class="container footer-inner">
+    <div>
+      <div class="brand" style="color:#fff; margin-bottom:10px;"><span class="dot"></span>系統實驗室</div>
+      <p style="color:#B4AEE8; max-width: 320px;">感謝你看到這裡!如果對這個作品有興趣,歡迎與我聯絡聊聊。</p>
+    </div>
+    <ul class="footer-links">
+      <li><a href="mailto:a11323037@yuntech.edu.tw">✉️ Email</a></li>
+      <li><a href="#">💼 LinkedIn</a></li>
+      <li><a href="#">🐙 GitHub</a></li>
+    </ul>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 吳亭萱．資訊管理系作品集</span>
+    <span>Built with HTML · CSS · JavaScript</span>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
