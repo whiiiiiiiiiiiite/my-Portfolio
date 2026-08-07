@@ -1,5 +1,5 @@
 // ============================================================
-// 系統實驗室 Portfolio — Interactions
+// 專案收藏室 Portfolio — Interactions
 // ============================================================
 
 document.addEventListener('DOMContentLoaded', () => {
